@@ -50,8 +50,7 @@ git clone https://github.com/<your-repo>/komu-auto-reply.git
 ---
 
 ### 4. Mở cuộc chat với Komu
-- Mở **Direct Message** hoặc **Channel** có Komu
-- Đảm bảo Komu đang hoạt động trong phòng chat
+- Mở **Direct Message** với KOMU example: https://mezon.ai/chat/direct/message/1840673165580177408/3
 
 ---
 
@@ -73,3 +72,4 @@ Nếu có ý tưởng cải tiến, cứ mạnh dạn đề xuất!
 ---
 
 Happy coding 🚀
+
