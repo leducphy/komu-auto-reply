@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Mezon Auto Clicker",
+    "version": "1.0",
+    "description": "Automatically answers quiz questions on Mezon.ai with random selections and logs all activities.",
+    "permissions": [
+      "storage"
+    ],
+    "host_permissions": [
+      "https://mezon.ai/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://mezon.ai/chat/direct/message/*",
+          "https://mezon.ai/chat/*"
+        ],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Mezon Auto Click & Logger"
+    }
+  }
+  
